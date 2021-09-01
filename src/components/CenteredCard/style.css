@@ -1,0 +1,15 @@
+.CenteredCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  background-color: rgb(138, 34, 138);
+  border: 1px solid white;
+  color: #f1f1f1;
+  margin: 20px auto;
+}
+.CenteredCard:hover {
+  filter: brightness(60%);
+  width: 450px;
+}
